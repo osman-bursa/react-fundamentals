@@ -1,4 +1,4 @@
-import react from 'react';
+import react, { useState } from 'react';
 import ExpenseForm from './ExpenseForm';
 import './NewExpense.css';
 
