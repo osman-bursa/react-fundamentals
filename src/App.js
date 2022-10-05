@@ -38,3 +38,8 @@ function App() {
 }
 
 export default App;
+
+// App component has access to both the NewExpense component and Expenses component since it renders both of them.
+// We can use App component as a middleware to store a state from NewExpense and transfer it to Expenses for example.
+// With this way we can communicate between components that are at the same level of component hierarcy.
+// Appearently this process is called 'Lifting state up'
